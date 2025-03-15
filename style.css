@@ -42,7 +42,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 a {
@@ -566,7 +566,7 @@ footer p {
 /* PUBLICATIONS SECTION */
 #publications {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #publications h1 {
