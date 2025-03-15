@@ -336,8 +336,8 @@ section {
 }
 
 .section-container .about-details-container .text-container {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
   text-align:justify;
 }
     
@@ -355,8 +355,8 @@ section {
 }
 
 #experience .details-container {
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 
@@ -505,8 +505,8 @@ footer p {
 
 /* Adjust the text container margins for Experience details */
 .section-container .experience-details-container .text-container {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
   text-align: justify;
 }
 
@@ -596,8 +596,8 @@ footer p {
 
 /* Adjust margins and text alignment for publication details */
 .section-container .publications-details-container .text-container {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
   text-align: justify;
 }
 
