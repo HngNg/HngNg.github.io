@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - About Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+
+    <nav id="desktop-nav">
+      <div class="logo">Hung Ngo Luu Tan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hung Ngo Luu Tan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">  
+          <div class="text-container">
+            <p>I am Hung, a researcher focused on using computer vision and machine learning to solve real-world problems. My current research revolves around multimodal AI, particularly in applying vision models to semantic communication systems. In 2024, I published a research paper as the first author, introducing a semantic communication system that employs an efficient security mechanism, and it received the Best Paper Award. Additionally, my work in the industry has further enhanced my technical expertise. The experiences I have gained from both academia and industry have provided me with a strong foundation on my journey to become a research scientist.</p>
+            <h2>Awards</h2>
+            <ul>
+              <li>
+                <strong>Best Paper Award</strong> – "Security Improvement for Deep Learning-Based Semantic Communication Systems"<br>
+                <span class="details">
+                  2024 International Conference on Advanced Technologies for Communications (ATC), Ho Chi Minh City, Vietnam.
+                </span>
+              </li>
+              <li>
+                <strong>Honorable Mention</strong>, ICPC 2022 Asia Ho Chi Minh City Regional Programming Contest.
+              </li>
+              <li>
+                <strong>Full Scholarship</strong> for Bachelor study in Computer Science and Engineering, International University - VNU HCMC.
+              </li>
+            </ul>
+            <h2>Education</h2>
+            <h3>International University – VNU, HCMC <span style="float: right;">August 2021</span></h3>
+            <p>Bachelor of Engineering, Network Engineer</p>
+            <ul>
+              <li>Grade Point Average (GPA): 3.2/4.0</li>
+              <li>Valedictorian in the 2021 VNU Entrance Examination into the School of Computer Science and Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <a href="experience.html">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" />
+      </a>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

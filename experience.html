@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - Experience & Skills</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Hung Ngo Luu Tan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hung Ngo Luu Tan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <p class="section__text__p1">Professional Journey</p>
+      <h1 class="title">Experience</h1>
+      <div class="section-container">
+        <div class="experience-details-container">
+          <div class="text-container">
+            <h2>
+              Machine Learning Intern – Delta Cognition 
+              <span style="float: right;">August 2024</span>
+            </h2>
+            <ul>
+              <li>
+                Wrapped and deployed the YOLO-World-Image model using Nvidia Triton and containerized it using Docker, achieving a confidence score above 90% for detecting unknown classes using the combination of text prompt and visual prompt.
+              </li>
+              <li>
+                Researched novel methods for few-shot object detection, open-set recognition techniques, and methods related to 3D reconstruction, including NeRF, Gaussian Splatting, etc.
+              </li>
+              <li>
+                Developed an optimized ML pipeline for 3D model reconstruction from 2D images by breaking down the original process and optimizing the runtime of each module. The refined pipeline reduced inference time by 40%.
+              </li>
+              <li>
+                Deployed deep learning models to application using FastAPI, and integrated these models with Azurite—the Azure Storage emulator—to facilitate efficient local development and testing of blob storage functionalities.
+              </li>
+            </ul>
+
+            <h2>
+              Research Assistant – International University 
+              <span style="float: right;">June 2023</span>
+            </h2>
+            <ul>
+              <li>
+                Developed deep learning-based coding schemes for image transmission using PyTorch, OpenCV, and LabelImg.
+              </li>
+              <li>
+                Proposed a formula for noise generation and loss function to prevent eavesdropping and ensure data integrity.
+              </li>
+              <li>
+                Achieved a Structural Similarity Index of 0.96 between the received images and the original images on the authenticated receiver, disrupted eavesdropper channels, and outperformed baseline schemes (JPEG+LDPC+QAM) in various settings.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="projects.html">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" />
+      </a>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
