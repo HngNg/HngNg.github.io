@@ -265,7 +265,7 @@ section {
 
 #about {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 #about h1 {
@@ -346,7 +346,7 @@ section {
 
 #experience {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #experience .experience{
@@ -476,7 +476,7 @@ footer p {
 /* EXPERIENCE SECTION */
 #experience {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #experience h1 {
