@@ -42,7 +42,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
 }
 
 a {
@@ -108,7 +108,7 @@ a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -190,7 +190,7 @@ section {
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 0.75rem;
   margin-bottom: 1rem;
 }
 
@@ -265,7 +265,7 @@ section {
 
 #about {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
 }
 
 #about h1 {
@@ -346,12 +346,12 @@ section {
 
 #experience {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
 }
 
 #experience .experience{
     position: relative;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
 }
 
 #experience .details-container {
@@ -364,7 +364,7 @@ section {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 0.75rem;
   margin-bottom: 2rem;
 }
 
@@ -476,7 +476,7 @@ footer p {
 /* EXPERIENCE SECTION */
 #experience {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
 }
 
 #experience h1 {
@@ -521,7 +521,7 @@ footer p {
 /* SKILLS SECTION */
 #skills {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
 }
 
 #skills h1 {
@@ -566,7 +566,7 @@ footer p {
 /* PUBLICATIONS SECTION */
 #publications {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
 }
 
 #publications h1 {
