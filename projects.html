@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio - Projects</title>
+    <title>My Portfolio - Experience & Skills</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-
     <nav id="desktop-nav">
       <div class="logo">Hung Ngo Luu Tan</div>
       <div>
@@ -33,57 +32,75 @@
         <div class="menu-links">
           <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
           <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="publications.html" onclick="toggleMenu()">Publications</a></li>
           <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
           <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
 
+    <!-- Projects Section -->
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
+      <p class="section__text__p1">Professional Journey</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/neural-network.png" alt="University Healthcare Database" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Joint Source-Channel Coding Cooperative Semantic Communication</h2>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HngNg/JCN-SemCom'">
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/global-network.png" alt="AI Knowledge Graph System" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">AI Knowledge Graph System</h2>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HngNg/ai-knowledgegraph-system'">
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/pokeball.png" alt="PokeCat&Bat" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">PokeCat&Bat</h2>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nguyenthiyenchi/pokemon-cat-n-bat'">
-                Github
-              </button>
-            </div>
+      <div class="section-container">
+        <div class="projects-details-container">
+          <div class="text-container">
+            <h2>
+              <a href="https://github.com/HngNg/JCN-SemCom">
+                Cooperative Semantic Communication System
+              </a>
+            </h2>
+            <ul>
+              <li>
+                Engineered a four nodes communication system to enhance data transmission using relay-based methods
+              </li>
+              <li>
+                Leveraged Swin Transformer architecture and autoencoder principles to design a semantic encoder-decoder, <br>
+                supporting error correction process and optimizing data processing efficiency.
+              </li>
+              <li>
+                Develop artificial noise formula for the communication channels to disrupt unauthorized data reconstruction.
+              </li>
+            </ul>
+            
+
+            <h2>
+              <a href="https://github.com/HngNg/ai-knowledgegraph-system">
+                AI Knowledge Graph System
+              </a>
+            </h2>
+            <ul>
+              <li>
+                Developed a microservices-based system to create, process, and query multimodal knowledge graphs from visual, <br>
+                natural language, and audio using Python, Neo4j, and Docker.
+              </li>
+              <li>
+                Integrated Whisper and LLM APIs including Gemini Pro 1.5 and OpenAI's ChatGPT for data processing.
+              </li>
+            </ul>
+
+            <h2>
+              <a href="https://github.com/nguyenthiyenchi/pokemon-cat-n-bat">
+                PokeCat&Bat
+              </a>
+            </h2>
+            <ul>
+              <li>
+                Utilized Figma, HTML, CSS, and JavaScript for the frontend to create an interactive user interface.
+              </li>
+              <li>
+                Developed the backend using Python and Flask-SocketIO, handling data processing and response generation.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-
-      <a href="contact.html">
+      <a href="projects.html">
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" />
       </a>
     </section>
+
     <script src="script.js"></script>
   </body>
 </html>
