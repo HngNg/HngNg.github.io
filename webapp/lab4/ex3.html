@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <title>Frontend Developer</title>
+    <link rel="stylesheet" href="styles/ex3.css">
+  </head>
+  
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="styles/black-hole.png" alt="logo_img">
+        Hung Ngo Luu Tan
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="ex3.html" >Home</a></li>
+          <li>/</li>
+          <li><a href="ex3.html">Projects</a></li>
+          <li>/</li>
+          <li><a href="ex3.html">Articles</a></li>
+          <li>/</li>
+          <li><a href="ex3.html">Contact</a></li>
+          <button id="toggleDarkMode">Dark Mode</button>
+        </ul>
+
+      </div>      
+    </nav>
+    <div class="info-container">
+      <p class="page-title">
+        <h1>Frontend Developer</h1>
+        <p class="title-description">html only with proper layout, no styling</p>  
+      </p>
+      <div class="info-columns">
+        <div class="project-column">
+          <div class="column-title">Projects</div>
+          <div class="project-row">
+            <p class="project-name" id="firstrow">HTML Only Portfolio</p>
+            <p class="project-name">Calculator</p>
+            <p class="project-name">Quiz App</p>
+            <p class="project-name">Countdown Timer</p>
+            <p class="project-name">Product Upcoming Page</p>
+          </div>
+        </div>
+        <div class="work-experience-column">
+          <div class="column-title">Work Experience</div>
+          <div class="work-experience">
+            <p class="work-description" id="project">roadmap.sh</p>
+            <p class="work-description">Solved all the rontend projects</p>
+            <a class="work-description" href="https://img.freepik.com/free-vector/404-error-with-landscape-concept-illustration_114360-7898.jpg">Visit my Profile</a>
+          </div>
+          <div class="work-position">
+            <p class="work-description" id="title">OpenSource Work</p>
+            <p class="work-description">Contribute to 50 OpenSource projects. Made my own projects with 200 Github stars</p>
+            <a class="work-description" href="https://img.freepik.com/free-vector/404-error-with-landscape-concept-illustration_114360-7898.jpg">Visit my GitHub Profile</a>
+          </div>
+        </div>
+        <div class="education-column">
+          <div class="column-title">Education</div>
+          <div class="education-details">
+            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions </p>
+            <p>Courses I took:</p>
+            <ul>
+              <li>Object Oriented Programming</li>
+              <li>Data Structures and Algorithms</li> 
+              <li>Web Engineering</li>
+              <li>Artificial Intelligence</li>
+              <li>Human Computer Interaction</li> 
+              <li>Computer Graphics</li>
+              <li>Database Management Systems</li>
+              <li>Distributed Database Systems</li>
+              <li>Discreet Mathematics</li>
+            </ul>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="reivews">
+      <div class="column-title">Reviews from my Teachers</div>
+      <div class="review-list">
+        <div class="review-box">
+          <p>John doe was a briliant student; always stood out with his assignments</p>
+          <div class="reviewer">
+            Jane Doe <br> Assistant Professor
+          </div>
+        </div>
+        <div class="review-box">
+          <p>John doe was a briliant student; always stood out with his assignments</p>
+          <div class="reviewer">
+            Jane Doe <br> Assistant Professor
+          </div>
+        </div>
+        <div class="review-box">
+          <p>John doe was a briliant student; always stood out with his assignments</p>
+          <div class="reviewer">
+            Jane Doe <br> Assistant Professor
+          </div>
+        </div>
+        <div class="review-box">
+          <p>John doe was a briliant student; always stood out with his assignments</p>
+          <div class="reviewer">
+            Jane Doe <br> Assistant Professor
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script>
+      const darkModeButton = document.getElementById('toggleDarkMode');
+      darkModeButton.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+      });
+    </script>
+  </body>
+
+</html>

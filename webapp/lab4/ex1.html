@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/ex1.css">
+    <title>Survey</title>
+</head>
+<body>
+    <form method="post" action="GetResult.jsp">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42VvySqZEdXozheIw-vH3oNgHC9ed0p_Q8Q&s" alt="logo">
+        <h1><strong>Survey</strong></h1>
+        <p>If you have a moment, we'd appreciate it if you would fill out this survey</p>
+        <h1>Your information:</h1>
+        <p><strong>First Name</strong> <input type="text" name="firstname"><br></p>
+        <p><strong>Last Name</strong> <input type="text" name="lastname"><br></p>
+        <p><strong>Email</strong> <input type="email" name="email" placeholder="Enter your email"><br></p>
+        <p><strong>Date of Birth</strong> <input type="date" name="dob"><br></p>
+        
+        <h1>Your information:</h1>
+        <input type="radio" id="option1" name="options[]" value="option1">
+        <label for="option1">Option 1</label><br>
+
+        <input type="radio" id="option2" name="options[]" value="option2">
+        <label for="option2">Option 2</label><br>
+
+        <input type="radio" id="option3" name="options[]" value="option3">
+        <label for="option3">Option 3</label><br>
+
+        <input type="radio" id="option4" name="options[]" value="option4">
+        <label for="option4">Option 4</label><br>
+
+        <h1>Would you like to receive announcements about new CDs and special offers</h1>
+        <input type="checkbox" id="option1" name="options[]" value="option1">
+        <label for="option1">YES, I'd like that.</label><br>
+        
+        <input type="checkbox" id="option2" name="options[]" value="option2">
+        <label for="option2">YES, pleaes send me email announcements.</label><br>
+
+        <label>Please contact me by:</label>
+        <select name="contact-method" id="contact-method">
+            <option value="email_or_postal">Email or postal mail</option>
+            <option value="email_only">Email only</option>
+            <option value="postal_only">Postal mail only</option>
+        </select>
+        <input type="Submit" value= “Submit”>
+    </form>
+
+    
+</body>
+</html>

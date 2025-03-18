@@ -1,0 +1,211 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+  }
+  
+/* NAVIGATION BAR */
+nav, nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo img {
+    padding: 1rem;
+    max-width: 40px;
+    height: auto;
+    width: auto;
+}
+
+.nav-bar li {
+    display: block;
+    padding: 8px;
+}
+.nav-bar li a {
+    text-decoration: none;
+}
+#toggleDarkMode{
+    background-color: white;
+    color: black;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 1.5rem;
+}
+
+#toggleDarkMode:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* INFO CONTAINER */
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container h1 {
+    text-align: center;   
+}
+
+.page-title {
+    padding: 1.5 rem
+}
+
+.info-container .title-description {
+    text-align: center;    
+}
+
+/* INFO COLUMN */
+.info-columns {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.column-title{
+    padding: 1.5rem;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+/* PROJECT COLUMN */
+
+.project-column {
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+.project-name {
+    padding: 1.5rem;
+    border-top: 2px solid black;
+}
+#firstrow{
+    padding: 1.5rem;
+    border-top: transparent;
+}
+
+/* WORK EXPERIENCE */
+
+.work-experience-column {
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-right: 2px solid black;
+    
+}
+
+.work-experience, .work-position {
+    padding: 1.5rem;
+}
+
+.work-experience #project {
+    font-weight: bold;
+}
+
+.work-position{
+    border-top: 2px solid black;
+}
+.work-position #title {
+    font-size:x-large;
+}
+.work-experience-column a {
+    text-decoration: none;
+}
+
+.education-column {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+}
+.education-details {
+    padding: 1.5rem;
+}
+
+/* REVIEW SECTION */
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    gap: 2rem;
+}
+.review-box {
+    min-width: 300px;
+    height: max-content;
+    padding: 1rem;
+    border-radius:30px;
+    border: 2px solid black;
+    overflow-wrap: break-word;
+}
+.reviewer {
+    color: rgb(140, 140, 140);
+    padding-bottom: 1rem;
+}
+
+
+@media (max-width: 900px) {
+    nav {
+        flex-direction: column;
+    }
+    .info-columns {
+      flex-direction: column;
+    }
+  }
+
+/* ----- DARK MODE ----- */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode .info-columns {
+    border: 2px solid white;
+}
+
+body.dark-mode .project-column {
+    border-right: 2px solid white;
+}
+
+body.dark-mode .project-name {
+    border-top: 2px solid white;
+}
+
+body.dark-mode .work-experience-column {
+    border-right: 2px solid white;
+}
+
+body.dark-mode .work-position {
+    border-top: 2px solid white;
+}
+
+body.dark-mode .education-column {
+    border-color: white;
+}
+
+body.dark-mode .review-box {
+    border: 2px solid white;
+}
